@@ -1,0 +1,59 @@
+.head1 {
+    font-size: 30px;
+    color: #009900;
+    font-weight: bold;
+    text-align: center;
+}
+.head2 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(8, 42, 235);
+    font-weight: bold;
+}
+body {
+    margin: 0 auto;
+}
+.menu {
+    background-color: #009900;
+    padding: 10px 0px 10px 0px;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-reg {
+    float: right;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+img {
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 40%;
+   }
+.offlines,.onlines,.classes {
+    font-size: 18px;
+}
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

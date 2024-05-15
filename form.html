@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0px;
+                background-color: #f0f0f0;
+            }
+            form {
+                width:400px;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            fieldset {
+                border: 1px solid black;
+                padding: 10px;
+                margin: 0;
+            }
+            legend {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            label {
+                display: block;
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+    <button style="margin-right: 50px;"><a href="index.html">Home</a></button>
+    <body>
+        <form id="myForm">
+            <fieldset>
+            <legend>Please fill and submit this form</legend>
+            <label>Enter your full name</label>
+            <input type="text" name="name"/>
+
+            <label>Enter your email</label>
+            <input type="text" name="email"/>
+
+            <label>Choose your interested course</label>
+            <input type="radio" name="radio"/>Computer Packages<br>
+           
+            <input type="radio" name="radio"/>Web Development<br>
+
+            <input type="submit" value="Send"/>
+        </fieldset>
+        </form>
+    </body>
+</html>
